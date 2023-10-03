@@ -1,4 +1,4 @@
-var timer = 30;
+var timer = 60;
 var score = 0;
 var hitrn ;
 function increaseScore(){
@@ -8,7 +8,7 @@ function increaseScore(){
  
 function makebubble(){
     var clutter = "";
-for(var i = 1; i <=160; i++){
+for(var i = 1; i <=110; i++){
 
     var rn = Math.floor(Math.random()*10)
 clutter += `<div class="bubble">${rn}</div>`
